@@ -1,1 +1,23 @@
+.page-container
+    @include width-height(100%,100%)
+    @include set-font(rgb(33,33,33), 'Poppins', 1.6rem,300, normal)
+    @include flexbox(column, flex-start, center, 2rem)
+    min-height: 100vh
+    max-width: 120rem
+    background-color: $white
+    padding: 2rem
 
+    h1
+        @include set-font(rgb(33,33,33), 'Roboto', 3rem,600, normal)
+        @include width-height(100%,100%)
+
+    .home-introduction
+        @include set-font(rgb(33,33,33), 'Roboto', 1.8rem,300, normal)
+    .ordered-list
+        @include width-height(100%,100%)
+        padding-left: 2rem
+
+
+
+
+    

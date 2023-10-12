@@ -34,7 +34,14 @@ const Navbar = () => {
 
   return (
     <div className='navbar-container'>
+      <p className='navbar-title'>React App Boilerplate</p>
+      <div className='links-container'>
+        <Link className='navbar-link' to="/" onClik="">Router</Link>
+        <Link className='navbar-link' to="/" onClik="">Sass</Link>
+        <Link className='navbar-link' to="/" onClik="">Structure</Link>
+        <Link className='navbar-link' to="/" onClik="">Useful</Link>
 
+      </div>
     </div>
   )
 }

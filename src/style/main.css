@@ -17,7 +17,7 @@ html {
   margin: 0;
   padding: 0;
   font-size: 62.5%;
-  background-color: whitesmoke;
+  background-color: hsl(0, 0%, 100%);
 }
 
 body {
@@ -60,4 +60,80 @@ h2 {
 
 .round {
   border-radius: 50%;
+}
+
+.page-container {
+  width: 100%;
+  height: 100%;
+  color: rgb(33, 33, 33);
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 1.6rem;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  min-height: 100vh;
+  max-width: 120rem;
+  background-color: hsl(0, 0%, 100%);
+  padding: 2rem;
+}
+.page-container h1 {
+  color: rgb(33, 33, 33);
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 3rem;
+  font-style: normal;
+  width: 100%;
+  height: 100%;
+}
+.page-container .home-introduction {
+  color: rgb(33, 33, 33);
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1.8rem;
+  font-style: normal;
+}
+.page-container .ordered-list {
+  width: 100%;
+  height: 100%;
+  padding-left: 2rem;
+}
+
+.navbar-container {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  z-index: 10;
+  background-color: hsl(0, 0%, 100%);
+  padding: 0 2rem 0 2rem;
+  max-width: 120rem;
+}
+.navbar-container .navbar-title {
+  color: rgb(33, 33, 33);
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 2rem;
+  font-style: normal;
+}
+.navbar-container .links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+.navbar-container .links-container .navbar-link {
+  color: rgb(33, 33, 33);
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 2rem;
+  font-style: normal;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */

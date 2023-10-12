@@ -1,0 +1,19 @@
+.navbar-container
+    @include width-height(100%, 7rem)
+    @include flexbox(row, space-between, center, 5rem)
+    // box-shadow: 0px 0px 24px 5px rgba(0,0,0,0.02)
+    z-index:10
+    background-color: $white
+    padding: 0 2rem 0 2rem
+    max-width: 120rem
+
+    .navbar-title
+        @include set-font($black, "Poppins", 2rem,500, normal)
+    
+    .links-container
+        @include flexbox(row, space-between, center, 4rem)
+
+        .navbar-link
+            @include set-font($black, "Poppins", 2rem,400, normal)
+            cursor: pointer
+
